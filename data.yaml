@@ -1,0 +1,13 @@
+train: /home/edr/Documents/Divers/plume_detection/data_plume_original/train/images
+val: /home/edr/Documents/Divers/plume_detection/data_plume_original/valid/images
+test: ../test/images
+
+nc: 2
+names: ['Plume', 'Summit']
+
+roboflow:
+  workspace: university-of-bristol-v8lxj
+  project: fuego-machine-vision-test-no-background
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/university-of-bristol-v8lxj/fuego-machine-vision-test-no-background/dataset/2
