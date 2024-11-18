@@ -1,8 +1,8 @@
 task: detect
 mode: train
-model: /home/edr/Documents/Divers/plume_detection/plume.pt
-data: /content/datasets/Fuego---Machine-Vision---TEST-NO-BACKGROUND-3/data.yaml
-epochs: 100
+model: /home/edr/Documents/Divers/plume_detection/yolov8n.pt
+data: /home/edr/Documents/Divers/plume_detection/data.yaml
+epochs: 300
 time: null
 patience: 100
 batch: 16
