@@ -1,0 +1,13 @@
+names:
+- Plume
+- Summit
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: fuego-machine-vision-test-no-background
+  url: https://universe.roboflow.com/university-of-bristol-v8lxj/fuego-machine-vision-test-no-background/dataset/2
+  version: 2
+  workspace: university-of-bristol-v8lxj
+test: ../test/images
+train: /home/edouard/workspace/Plume_Detection/notebooks/object_detection_set_B/train/images
+val: //home/edouard/workspace/Plume_Detection/notebooks/object_detection_set_B/valid/images

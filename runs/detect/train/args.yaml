@@ -1,7 +1,7 @@
 task: detect
 mode: train
-model: /home/edr/Documents/Divers/plume_detection/yolov8n.pt
-data: /home/edr/Documents/Divers/plume_detection/data.yaml
+model: /home/edouard/workspace/Plume_Detection/yolov8n.pt
+data: /home/edouard/workspace/Plume_Detection/notebooks/data.yaml
 epochs: 300
 time: null
 patience: 100
@@ -10,7 +10,7 @@ imgsz: 640
 save: true
 save_period: -1
 cache: false
-device: null
+device: '0'
 workers: 8
 project: null
 name: train
@@ -98,7 +98,6 @@ bgr: 0.0
 mosaic: 1.0
 mixup: 0.0
 copy_paste: 0.0
-copy_paste_mode: flip
 auto_augment: randaugment
 erasing: 0.4
 crop_fraction: 1.0
