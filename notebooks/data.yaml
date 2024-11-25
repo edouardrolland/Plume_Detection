@@ -9,5 +9,5 @@ roboflow:
   version: 2
   workspace: university-of-bristol-v8lxj
 test: ../test/images
-train: /home/edouard/workspace/Plume_Detection/notebooks/object_detection_set_B/train/images
-val: //home/edouard/workspace/Plume_Detection/notebooks/object_detection_set_B/valid/images
+train: /home/edr/object_detection_set_B/train/images
+val: /home/edr/object_detection_set_B/valid/images
