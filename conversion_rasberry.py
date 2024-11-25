@@ -11,8 +11,10 @@ from matplotlib import pyplot as plt
 from tqdm import tqdm
 
 # Load the YOLO model
-yolo_model = YOLO("/home/edouard/workspace/Plume_Detection/yolov8n.pt")
+yolo_model = YOLO("/home/edouard/workspace/Plume_Detection/runs/detect/train/weights/best.pt")
 
+
+"""
 # Train the YOLO model
 yolo_model.train(
     data=f"/home/edouard/workspace/Plume_Detection/notebooks/data.yaml",
@@ -21,10 +23,10 @@ yolo_model.train(
     plots=True,
     device="0",
 )
+"""
 
 # Validate the YOLO model
 yolo_model.val(
     data=f"/home/edouard/workspace/Plume_Detection/notebooks/data.yaml",
-    weights=f"/home/edouard/workspace/Plume_Detection/runs/detect/train/weights/best.pt"
 )
 

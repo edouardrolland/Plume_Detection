@@ -1,7 +1,4 @@
 data_plume_original/*
-notebooks/pbject_detection_set_B
-*.jpg
-*.png
-*.jpeg
-*.gif
-*.txt
+notebooks/pbject_detection_set_B/*
+
+
